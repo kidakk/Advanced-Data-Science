@@ -304,11 +304,11 @@ The red part (is_cancelled 0) would be all close to 0, meaning .pred_1 = 0 , whi
 
 b. Our predictions are classified as canceled if their predicted probability of canceling is greater than .5. If we wanted to have a high true positive rate, should we make the cutoff for predicted as canceled higher or lower than .5? 
 
-Since the true positive rate is the probability that an actual positive will test positive, if the cutoff is higher, then it means that the when the predicted probabilities of canceling is higher this event will classify as canceled, which will have a higher accuracy thus high true positive rate.
+Lower. Since the true positive rate is the probability that an actual positive will test positive, if the cutoff is lower, more cases will be classfied as positive and thus the true positive rate will be higher.  
 
 c. What happens to the true negative rate if we try to get a higher true positive rate? 
 
-The true negative rate will decrease when we try to get a higher true positive rate. 
+The true negative rate will decrease when we try to get a higher true positive rate. They are negatively correlated. 
 
 8. Let's say that this model is going to be applied to bookings 14 days in advance of their arrival at each hotel, and someone who works for the hotel will make a phone call to the person who made the booking. During this phone call, they will try to assure that the person will be keeping their reservation or that they will be canceling in which case they can do that now and still have time to fill the room. How should the hotel go about deciding who to call? How could they measure whether it was worth the effort to do the calling? Can you think of another way they might use the model? 
 
