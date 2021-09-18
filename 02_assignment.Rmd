@@ -34,6 +34,7 @@ From now on, GitHub should be part of your routine when doing assignments. I rec
 
 **Task**: When you are finished with the assignment, post a link below to the GitHub repo for the assignment. 
 
+[Homework 2](https://github.com/kidakk/Advanced-Data-Science/blob/main/02_assignment.Rmd) 
 
 ## Machine Learning review and intro to `tidymodels`
 
